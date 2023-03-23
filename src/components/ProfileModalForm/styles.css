@@ -1,0 +1,16 @@
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirm-modal-button {
+    width: 236px;
+    height: 46px;
+
+    background: var(--primary-color);
+    border-radius: 5px;
+
+    margin-top: 48px;
+}

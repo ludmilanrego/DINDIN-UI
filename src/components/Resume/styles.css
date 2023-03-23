@@ -1,0 +1,60 @@
+.resume-info {
+    width: 236px;
+    height: 196px;
+    background: var(--light-gray);
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding-left: 33px;
+    padding-right: 32px;
+    padding-top: 26px;
+    padding-bottom: 31px;
+}
+
+.resume-info div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.resume-info h6 {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--darkest-gray);
+
+    margin-bottom: 26px;
+}
+
+.description {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: var(--darkest-gray);
+}
+
+.purple {
+    color: var(--primary-color);
+}
+
+.orange {
+    color: var(--secondary-color);
+}
+
+.blue {
+    color: var(--light-blue);
+}
+
+.outcome {
+    border-bottom: 1px solid var(--black);
+    margin-top: 12px;
+    padding-bottom: 19px;
+}
+
+.balance {
+    margin-top: 16px;
+}

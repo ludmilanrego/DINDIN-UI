@@ -1,0 +1,16 @@
+.addTransactionButton {
+    width: 236px;
+    height: 46px;
+
+
+    box-sizing: border-box;
+    color: var(--white);
+    background-color: var(--primary-color);
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    border-radius: 5px;
+
+}

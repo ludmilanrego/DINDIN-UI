@@ -1,0 +1,95 @@
+.table {
+    margin-top: 61px;
+}
+
+.table-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 964px;
+    height: 58px;
+
+    background: var(--light-gray);
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.table-header span {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+.table-header div {
+    display: flex;
+    align-items: center;
+    gap: 4px
+}
+
+.triangle-img {
+    width: 15px;
+    height: 8px;
+}
+
+.table-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #E0E0E0;
+
+    width: 964px;
+    height: 58px;
+}
+
+.bold {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.description {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+.table-row-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-row-date {
+    width: 13%;
+}
+
+.day-of-week {
+    width: 13%;
+}
+
+.table-row-description {
+    width: 27%;
+}
+
+.table-row-category {
+    width: 20%;
+}
+
+.table-row-value {
+    width: 14%;
+}
+
+.icons {
+    width: 13%;
+}
