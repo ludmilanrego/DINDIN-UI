@@ -17,6 +17,8 @@ O sistema trata-se de uma aplicação para controle de finanças pessoais. As fu
 
 Foi desenvolvida também a API deste projeto, que está disponível em [DINDIN - API] (https://github.com/ludmilanrego/DINDIN-API)
 
+Layout disponível no [Figma] (https://www.figma.com/file/BwOAJkF8OeMON36TyFdhkj/DinDin-2.0?node-id=0-1&t=aiFc2nRETPLuxmZG-0) 
+
 
 ### Para rodar aplicação Front-end
 
