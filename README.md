@@ -14,6 +14,7 @@ O sistema trata-se de uma aplicação para controle de finanças pessoais. As fu
 - Permitir o usuário filtrar a tabela por categoria
 - Editar perfil de usuário
 - Deslogar usuário
+- Adaptação do layout em função do tamanho da tela (responsividade)
 
 Foi desenvolvida também a API deste projeto, que está disponível em [DINDIN - API] (https://github.com/ludmilanrego/DINDIN-API)
 

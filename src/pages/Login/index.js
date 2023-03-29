@@ -60,7 +60,7 @@ function Login() {
         email: form.email,
         senha: form.senha
       });
-      console.log(response.data)
+
       if (response.status === 200) {
         setItem('token', response.data.token);
         clearForm();
@@ -82,7 +82,7 @@ function Login() {
       <div className="header">
         <Logo></Logo>
       </div>
-      <div className="main">
+      <div className="login-main">
         <div className="info">
           <h1> Controle suas <span>finanças</span>, sem planilha chata.</h1>
           <h2> Organizar as suas finanças nunca foi tão fácil, com o DINDIN, você tem tudo num único lugar e em um clique de distância.</h2>
@@ -118,6 +118,12 @@ function Login() {
               <span>{warningSpan}</span>
             </div>
             <button className='purple-button'>Entrar</button>
+
+            <span className='navigate-to-subscribe-span'
+              onClick={() => navigate('/')}
+            >
+              Ainda não tem cadastro? Clique aqui!
+            </span>
           </form>
         </div>
       </div>

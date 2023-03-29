@@ -3,14 +3,14 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  gap: 8px;
+  gap: 0.8rem;
 }
 
 .user-container h5 {
   font-family: 'Rubik', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
   color: var(--white);
 }

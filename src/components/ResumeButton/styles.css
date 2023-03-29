@@ -1,0 +1,17 @@
+.resume-button {
+    width: 8.0rem;
+    height: 3.0rem;
+    background: var(--light-gray);
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--black);
+}

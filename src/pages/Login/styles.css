@@ -10,22 +10,22 @@
 }
 
 .header {
-  margin-left: 105px;
-  margin-top: 46px;
-  margin-bottom: 50px;
+  margin-left: 10.5rem;
+  margin-top: 4.6rem;
+  margin-bottom: 5.0rem;
   justify-content: flex-start;
 }
 
-.main {
+.login-main {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 91px;
+  gap: 5rem;
 }
 
 .purple-button button {
-  height: 52px;
+  height: 5.2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,36 +37,37 @@
   flex-direction: column;
   align-items: flex-start;
 
-  margin-left: 100px;
+  margin-left: 10.0rem;
 }
 
 .info button {
-  width: 284px;
+  width: 28.4rem;
 }
 
 .info span {
   color: var(--primary-color);
-
 }
 
 .info h2 {
-  margin-bottom: 43px;
-  margin-top: 33px;
+  margin-bottom: 4.3rem;
+  margin-top: 3.3rem;
 }
 
 .login-box {
-  width: 513px;
-  height: 535px;
+  width: 51.3rem;
+  height: 53.5rem;
   background-color: var(--white);
 
   align-items: center;
   justify-content: center;
 
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-top: 60px;
-  padding-bottom: 49px;
-  margin-right: 122px;
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
+  padding-top: 6.0rem;
+  padding-bottom: 4.9rem;
+  margin-right: 10rem;
+
+  border-radius: 20px;
 }
 
 .form {
@@ -77,28 +78,62 @@
 }
 
 .input-container {
-  gap: 8px;
-  margin-top: 31px;
+  gap: 0.8rem;
+  margin-top: 3.1rem;
 }
 
 label {
   font-family: 'Rubik', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
   color: var(--medium-gray);
 }
 
 input {
-  width: 449px;
-  height: 63px;
+  width: 44.9rem;
+  height: 6.3rem;
 
   border: 1px solid var(--medium-gray);
   border-radius: 5px;
 }
 
 .login-box button {
-  width: 449px;
-  margin-top: 73px;
+  width: 44.9rem;
+  margin-top: 7.3rem;
+}
+
+.navigate-to-subscribe-span {
+  display: none
+}
+
+@media (max-width: 1128px) {
+
+  .info {
+    gap: 2rem
+  }
+
+  .info h2 {
+    display: none;
+  }
+
+
+}
+
+
+@media (max-width: 860px) {
+  .info {
+    display: none;
+  }
+
+  .navigate-to-subscribe-span {
+    display: block
+  }
+
+  .login-box {
+    margin-right: 0;
+  }
+
+
 }

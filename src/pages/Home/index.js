@@ -1,9 +1,10 @@
 import Header from '../../components/Header';
-import Resume from '../../components/Resume';
+import ResumeBox from '../../components/ResumeBox';
 import Filter from '../../components/Filter';
 import Table from '../../components/Table';
 import Modal from '../../components/Modal';
 import AddTransactionButton from '../../components/AddTransactionButton';
+import ResumeButton from '../../components/ResumeButton';
 
 import api from './../../services/api';
 import { useState, useEffect } from 'react'
@@ -117,12 +118,15 @@ function Home() {
                 ></Header>
                 <main>
                     {modal.status !== "none" && <Modal></Modal>}
-                    <div className='left-side'>
-                        <Filter ></Filter>
+                    <div className='filter-and-table'>
+                        <div className='function-buttons'>
+                            <Filter ></Filter>
+                            <ResumeButton></ResumeButton>
+                        </div>
                         <Table></Table>
                     </div>
-                    <div className='right-side'>
-                        <Resume></Resume>
+                    <div className='resume-and-add-button'>
+                        <ResumeBox ></ResumeBox>
                         <AddTransactionButton></AddTransactionButton>
                     </div>
                 </main >

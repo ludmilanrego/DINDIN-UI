@@ -1,6 +1,6 @@
 .addTransactionButton {
-    width: 236px;
-    height: 46px;
+    width: 23.6rem;
+    height: 4.6rem;
 
 
     box-sizing: border-box;
@@ -9,8 +9,7 @@
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
     border-radius: 5px;
-
 }

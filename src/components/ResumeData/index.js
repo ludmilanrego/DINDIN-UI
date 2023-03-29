@@ -8,8 +8,7 @@ export default function Resume() {
     const { resumeData } = useContext(UserContext)
 
     return (
-        <div className='resume-info'>
-            <h6>Resumo</h6>
+        <>
             <div className='income'>
                 <span className='description'>Entradas</span>
                 <span className='purple'>R$ {resumeData.entrada}</span>
@@ -22,6 +21,6 @@ export default function Resume() {
                 <span className='description'>Saldo</span>
                 <span className='blue'>R$ {parseInt(resumeData.entrada) - parseInt(resumeData.saida)}</span>
             </div>
-        </div>
+        </>
     )
 }

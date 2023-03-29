@@ -73,18 +73,18 @@ function Subscribe() {
 
   return (
     <div className="subscribe-container">
-      <div className="header">
+      <div className="subscribe-header">
         <Logo></Logo>
       </div>
-      <div className="main">
+      <div className="subscribe-main">
         <div className="subscribe-box">
           <form
-            className='form'
+            className='subscribe-form'
             onSubmit={(event) => handleSubmit(event)}
           >
             <h3>Cadastre-se</h3>
             <div
-              className='input-container'
+              className='subscribe-input-container'
             >
               <label htmlFor="nome">Nome</label>
               <input
@@ -95,7 +95,7 @@ function Subscribe() {
               />
             </div>
             <div
-              className='input-container'
+              className='subscribe-input-container'
             >
               <label htmlFor="email">E-mail</label>
               <input
@@ -106,7 +106,7 @@ function Subscribe() {
               />
             </div>
             <div
-              className='input-container'
+              className='subscribe-input-container'
             >
               <label htmlFor="senha">Senha</label>
               <input
@@ -117,7 +117,7 @@ function Subscribe() {
               />
             </div>
             <div
-              className='input-container'
+              className='subscribe-input-container'
             >
               <label htmlFor="confirmationPassword">Confirmação de senha</label>
               <input
@@ -129,7 +129,7 @@ function Subscribe() {
             </div>
             <button className='purple-button'>Cadastrar</button>
             <span
-              onClick={() => navigate('/login')}
+              onClick={() => navigate('/')}
             >
               Já tem cadastro? Clique aqui!
             </span>

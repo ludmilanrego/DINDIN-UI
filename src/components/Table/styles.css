@@ -1,5 +1,5 @@
 .table {
-    margin-top: 61px;
+    margin-top: 6.1rem;
 }
 
 .table-header {
@@ -7,8 +7,8 @@
     justify-content: space-around;
     align-items: center;
 
-    width: 964px;
-    height: 58px;
+    width: 96.4rem;
+    height: 5.8rem;
 
     background: var(--light-gray);
     box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
@@ -19,47 +19,29 @@
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
 
     color: #000000;
 }
 
-.table-header div {
+/* .table-header div {
     display: flex;
     align-items: center;
-    gap: 4px
-}
+
+} */
 
 .triangle-img {
-    width: 15px;
-    height: 8px;
-}
-
-.table-row {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-bottom: 1px solid #E0E0E0;
-
-    width: 964px;
-    height: 58px;
-}
-
-.bold {
-    font-family: 'Lato', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
+    width: 1.5rem;
+    height: 8rem;
 }
 
 .description {
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
 
     color: #000000;
 }
@@ -72,6 +54,10 @@
 
 .table-row-date {
     width: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
 }
 
 .day-of-week {
@@ -93,3 +79,18 @@
 .icons {
     width: 13%;
 }
+
+.table-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 96.4rem;
+    height: 5.8rem;
+
+    background: var(--light-gray);
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+@media (max-width:998px) {}

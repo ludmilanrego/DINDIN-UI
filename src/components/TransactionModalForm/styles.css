@@ -12,14 +12,14 @@
 }
 
 .modal-type-buttons button {
-    width: 245px;
-    height: 60px;
+    width: 24.5rem;
+    height: 6.0rem;
 
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
     display: flex;
     align-items: center;
     text-align: center;
@@ -47,18 +47,18 @@
 }
 
 .confirm-modal-button {
-    width: 236px;
-    height: 46px;
+    width: 23.6rem;
+    height: 4.6rem;
 
     background: var(--primary-color);
     border-radius: 5px;
 
-    margin-top: 48px;
+    margin-top: 4.8rem;
 }
 
 select {
-    width: 449px;
-    height: 63px;
+    width: 44.9rem;
+    height: 6.3rem;
 
     border: 1px solid var(--medium-gray);
     border-radius: 5px;

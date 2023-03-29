@@ -6,11 +6,11 @@
 }
 
 .confirm-modal-button {
-    width: 236px;
-    height: 46px;
+    width: 23.6rem;
+    height: 4.6rem;
 
     background: var(--primary-color);
-    border-radius: 5px;
+    border-radius: 0.5rem;
 
-    margin-top: 48px;
+    margin-top: 4.8rem;
 }

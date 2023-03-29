@@ -5,12 +5,12 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 25px;
+    gap: 2.5rem;
 }
 
 .filter-button {
-    width: 80px;
-    height: 30px;
+    width: 8.0rem;
+    height: 3.0rem;
     background: var(--light-gray);
     box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -20,8 +20,8 @@
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
     display: flex;
     align-items: center;
     text-align: center;
@@ -29,46 +29,46 @@
 }
 
 .filter-img {
-    width: 14px;
-    height: 14px;
+    width: 1.4rem;
+    height: 1.4rem;
 }
 
 .category-container {
-    width: 959px;
-    height: 205px;
+    width: 95.9rem;
+    height: 20.5rem;
 
     background: var(--light-gray);
     box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 
-    padding-top: 32px;
-    padding-left: 36px;
-    padding-bottom: 13px;
+    padding-top: 3.2rem;
+    padding-left: 3.6rem;
+    padding-bottom: 1.3rem;
 }
 
 .category-container h6 {
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
 
     color: #B9B9B9;
-    margin-bottom: 20px;
+    margin-bottom: 2.0rem;
 }
 
 .category-cards {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 90px;
+    height: 9.0rem;
 }
 
 .buttons {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    gap: 25px;
+    gap: 2.5rem;
 }
 
 .clean-filter {
@@ -79,11 +79,11 @@
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
 
-    width: 98px;
-    height: 30px;
+    width: 9.8rem;
+    height: 3.0rem;
 }
 
 .apply-filter {
@@ -94,9 +94,9 @@
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
 
-    width: 98px;
-    height: 30px;
+    width: 9.8rem;
+    height: 3.0rem;
 }

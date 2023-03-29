@@ -1,0 +1,29 @@
+.resume-info {
+    width: 23.6rem;
+    height: 19.6rem;
+    background: var(--light-gray);
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding-left: 3.3rem;
+    padding-right: 3.2rem;
+    padding-top: 2.6rem;
+    padding-bottom: 3.1rem;
+}
+
+.resume-info div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.resume-info h6 {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    color: var(--darkest-gray);
+
+    margin-bottom: 2.6rem;
+}

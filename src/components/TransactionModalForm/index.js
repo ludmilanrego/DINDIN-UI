@@ -1,5 +1,5 @@
 import './styles.css';
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { getItem } from '../../utils/storage'
 import api from '../../services/api';
 
@@ -33,7 +33,6 @@ export default function TransactionModalForm() {
             return;
         }
 
-        console.log('form submetido')
         if (modal.status === "addTransaction") {
             return addTransaction()
         }
@@ -66,7 +65,7 @@ export default function TransactionModalForm() {
     async function addTransaction() {
 
         try {
-            const response = await api.post('/transacao',
+            await api.post('/transacao',
                 {
                     ...modalForm
                 },
@@ -88,7 +87,7 @@ export default function TransactionModalForm() {
     async function editTransaction() {
 
         try {
-            const response = await api.put(`/transacao/${modal.transaction.id}`,
+            await api.put(`/transacao/${modal.transaction.id}`,
                 {
                     ...modalForm
                 },

@@ -1,12 +1,12 @@
 header {
   width: 100%;
-  height: 75px;
+  height: 7.5rem;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 10rem;
+  padding-right: 10rem;
 
 }

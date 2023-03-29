@@ -1,5 +1,5 @@
 .subscribe-container {
-  height: 130vh;
+  height: 100vh;
 
   display: flex;
   flex-direction: column;
@@ -9,19 +9,27 @@
   background-position: center;
 }
 
-.header {
-  margin-left: 105px;
-  margin-top: 46px;
-  margin-bottom: 50px;
+.subscribe-header {
+  margin-left: 10.5rem;
+  margin-top: 4.6rem;
+  margin-bottom: 5.0rem;
   justify-content: flex-start;
 }
 
+.subscribe-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 9.1rem;
+}
+
 button {
-  height: 52px;
+  height: 5.2rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 8px;
+  margin-bottom: 0.8rem;
 }
 
 span {
@@ -29,52 +37,54 @@ span {
 }
 
 .info h2 {
-  margin-bottom: 43px;
-  margin-top: 33px;
+  margin-bottom: 4.3rem;
+  margin-top: 3.3rem;
 }
 
 .subscribe-box {
-  width: 513px;
-  height: 781px;
+  width: 51.3rem;
+  height: 65rem;
   background-color: var(--white);
   align-items: center;
   justify-content: center;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-top: 61px;
-  padding-bottom: 57px;
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
+  padding-top: 4.1rem;
+  padding-bottom: 5.7rem;
+
+  border-radius: 20px;
 }
 
-.form {
+.subscribe-form {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
 
-.input-container {
-  gap: 8px;
-  margin-top: 31px;
+.subscribe-input-container {
+  gap: 0.6rem;
+  margin-top: 1.5rem;
 }
 
 label {
   font-family: 'Rubik', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
   color: var(--medium-gray);
 }
 
 input {
-  width: 449px;
-  height: 63px;
+  width: 44.9rem;
+  height: 5rem;
 
   border: 1px solid var(--medium-gray);
   border-radius: 5px;
 }
 
 .subscribe-box button {
-  width: 449px;
-  margin-top: 73px;
+  width: 44.9rem;
+  margin-top: 3rem;
 }
