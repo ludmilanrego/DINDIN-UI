@@ -20,6 +20,12 @@ main {
     padding-top: 5.5rem;
 }
 
+.filter-and-table {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 .resume-and-add-button {
     display: flex;
     flex-direction: column;
@@ -62,24 +68,3 @@ main {
     display: flex;
     flex-direction: row;
 }
-
-/* @media (max-width:1268px) {
-    main {
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        height: auto;
-    }
-
-    .resume-and-add-button {
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-
-        padding-top: 2rem;
-    }
-
-    .resume-info {
-        display: none
-    }
-} */

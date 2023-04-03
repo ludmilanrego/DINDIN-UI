@@ -10,3 +10,10 @@ header {
   padding-right: 10rem;
 
 }
+
+@media (max-width:700px) {
+  header {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}

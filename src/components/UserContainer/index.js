@@ -2,7 +2,7 @@ import './styles.css';
 import Exit from '../../assets/Exit.svg'
 import Perfil from '../../assets/Perfil.svg'
 
-import { setItem } from './../../utils/storage'
+import { removeItem, setItem } from './../../utils/storage'
 import { useNavigate } from 'react-router-dom';
 
 import { useContext } from 'react';
@@ -16,7 +16,7 @@ export default function UserContainer() {
     const navigate = useNavigate()
 
     function logout() {
-        setItem('token', '');
+        removeItem('token')
         navigate('/')
     }
 
