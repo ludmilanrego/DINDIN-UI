@@ -1,10 +1,10 @@
 .table-row {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    /* justify-content: space-around;
+    align-items: center; */
     border-bottom: 1px solid #E0E0E0;
 
-    width: 96.4rem;
+    min-width: 964px;
     height: 5.8rem;
 }
 
@@ -51,6 +51,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     position: relative;
 }

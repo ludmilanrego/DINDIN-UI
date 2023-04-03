@@ -5,8 +5,12 @@ import api from './../../services/api'
 import { checkValidForm } from '../../utils/general'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
+import { useEffect } from 'react'
+import { getItem } from './../../utils/storage'
 
 import './styles.css'
+
+const token = getItem('token');
 
 function Subscribe() {
   const navigate = useNavigate()
@@ -70,6 +74,12 @@ function Subscribe() {
       console.log(error)
     }
   }
+
+  useEffect(() => {
+    if (token) {
+      navigate("/home")
+    }
+  }, [])
 
   return (
     <div className="subscribe-container">

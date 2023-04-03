@@ -2,16 +2,17 @@ import Logo from '../../components/Logo';
 
 import api from './../../services/api'
 import { setItem } from './../../utils/storage'
-
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
+import { useEffect } from 'react'
+import { getItem } from './../../utils/storage'
 
 import './styles.css'
 
+const token = getItem('token');
+
 function Login() {
-
   const navigate = useNavigate()
-
   const [form, setForm] = useState(
     {
       email: '',
@@ -54,8 +55,6 @@ function Login() {
         return
       }
 
-
-
       const response = await api.post('/login', {
         email: form.email,
         senha: form.senha
@@ -76,6 +75,12 @@ function Login() {
       }, 1000);
     }
   }
+
+  useEffect(() => {
+    if (token) {
+      navigate("/home")
+    }
+  }, [])
 
   return (
     <div className="container">

@@ -1,5 +1,7 @@
 .table {
     margin-top: 6.1rem;
+    width: 964px;
+    /* overflow: auto; */
 }
 
 .table-header {
@@ -7,7 +9,7 @@
     justify-content: space-around;
     align-items: center;
 
-    width: 96.4rem;
+    min-width: 964px;
     height: 5.8rem;
 
     background: var(--light-gray);
@@ -85,7 +87,7 @@
     justify-content: space-around;
     align-items: center;
 
-    width: 96.4rem;
+    min-width: 96.4rem;
     height: 5.8rem;
 
     background: var(--light-gray);
@@ -93,4 +95,9 @@
     border-radius: 10px;
 }
 
-@media (max-width:998px) {}
+@media (max-width:998px) {
+
+    .table {
+        overflow-x: scroll;
+    }
+}
