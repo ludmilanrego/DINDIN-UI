@@ -1,6 +1,7 @@
 import Header from '../../components/Header';
 import ResumeBox from '../../components/ResumeBox';
 import Filter from '../../components/Filter';
+import FilterBox from '../../components/FilterBox';
 import Table from '../../components/Table';
 import Modal from '../../components/Modal';
 import AddTransactionButton from '../../components/AddTransactionButton';
@@ -27,6 +28,7 @@ function Home() {
             saida: ''
         }
     )
+    const [showCategories, setShowCategories] = useState(false)
 
     const token = getItem('token');
 
@@ -110,7 +112,7 @@ function Home() {
 
         <UserContext.Provider value={{
             user, setUser, modal, setModal, requestTransactions, categoryList,
-            transactions, setFilteredTransactions, filteredTransactions, resumeData
+            transactions, setFilteredTransactions, filteredTransactions, resumeData, showCategories, setShowCategories
         }}>
 
             <div className='home-container'>
@@ -123,6 +125,7 @@ function Home() {
                             <Filter ></Filter>
                             <ResumeButton></ResumeButton>
                         </div>
+                        <FilterBox></FilterBox>
                         <Table></Table>
                     </div>
                     <div className='resume-and-add-button'>
